@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario de Inscripción a un Curso</title>
+<link rel="stylesheet" type="text/css" href="12_formulario_maquetado.css">
+</head>
+<body>
+    <h1>Formulario de Inscripción a un Curso</h1>
+    
+        <form action="wwww.example.com" method="GET" id="formulario">
+            <p> Datos Personales </p>
+            <div>
+                <label for="Nombre"> Nombre(s): </label><input type="text" id="nombre" name="name"><br>
+                <label for="Apellido"> Apellido(s): </label><input type="text" id="apellido" name="surname"><br>
+                <label> Numero de telefono: </label><input type="text" id="telefono" name="telephone"><br>
+                <label for="email">Email: </label><input type="text" id="email" name="email"><br>
+            </div>
+
+            <p>Domicilio</p>
+            <div>
+                <label for="direccion"> Direccion: </label><input type="text" id="direccion" name="direccion">
+                <label for="pais"> País: </label> <select name="poblacion" id="poblacion">
+                    <option>España</option>
+                </select><br>
+                <label for="Provincia">Provincia: </label><input type="text" id="provincia" name="province">
+                <label for="Ciudad">Ciudad: </label>
+                <select name="poblacion" id="poblacion">
+                    <option>Alicante</option>
+                    <option>Madrid</option>
+                    <option>Sevilla</option>
+                    <option>Valencia</option>
+                    <option>Bilbao</option>
+                </select><br>
+                <label for="CodPostal">Codigo postal: </label><input type="text" id="codPostal" name="codPostal"><br> 
+            </div>
+
+            <p>Datos de nacimiento</p>
+            <div>
+                <label for="paisNa"> País: </label>
+                <select name="pais" id="paisNa">
+                    <option>Estados Unidos</option>
+                    <option>Mexico</option>
+                    <option>España</option>
+                    <option>China</option>
+                    <option>Francia</option>
+                </select><br><br>
+                <label for="CiudadNa"> Ciudad: </label><input type="text" id="ciudadNa" name="ciudadNa"><br>
+                <label for="ProvinciaNa">Provincia: </label><input type="text" id="provinciaNa" name="provinciaNa"><br>
+                <label for="Fecha"> Fecha de Nacimiento: </label><input type="text" id="fecha" name="fecha"><br>
+            </div>
+
+            <p>Otros cursos</p>
+            <div>
+                Has recibido otros cursos<input type="radio" name="curso" value="si" id="si">Si<br>
+                Anteriormente<input type="radio" name="curso" value="no" id="no">No<br><br>
+                Si, Especifique
+                <textarea name="opinion" id="opinion" rows="4" cols="50"></textarea><br><br><br><br><br>
+            </div>
+
+            <p>Como nos contacto</p>
+            <div>
+                Click en alguna de las opciones<br><br>
+                <input type="checkbox" name="contacto[]" id="contacto1" value="facebook">Facebook<br>
+                <input type="checkbox" name="contacto[]" id="contacto2" value="twitter">Twitter<br>
+                <input type="checkbox" name="contacto[]" id="contacto3" value="instagram">Instagram<br>
+                <input type="checkbox" name="contacto[]" id="contacto4" value="otro">Otro<br>
+            </div>
+            <div>
+                <input type="submit" value="Registrarme">           
+                <input type="reset" value="Restablecer">
+            </div>
+            
+        </form>
+</body>
+</html>
