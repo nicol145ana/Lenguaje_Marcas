@@ -13,23 +13,23 @@
     
     <form action="http://10.0.56.5/~juanjo/00_primero/recoger_datos.php" method="GET">
 
-        <p><label for="nombre"> 
-            Nombre: <input type="text" name="name">
+        <p><label for="name"> 
+            Nombre: <input type="text" id="name" name="nombre">
         </label></p>
 
         <p>
-            <label for="apellido1">
-                Primer Apellido: <input type="text" name="surname1"></label>
+            <label for="surname1">
+                Primer Apellido: <input type="text"  id="surname1" name="apellido1">
             </label>
         </p>
         <p>
-            <label for="apellido2">
-                Segundo Apellido: <input type="text" name="surname2"></label>
+            <label for="surname2">
+                Segundo Apellido: <input type="text" id="surname2" name="apellido2">
             </label>
         </p>
 
         <p>
-            <label for="sexo">
+            <label>
                 Sexo: 
                 <input type="radio" name="sexo" value="hombre">Hombre
                 <input type="radio" name="sexo" value="mujer">Mujer
@@ -37,19 +37,19 @@
         </p>
 
         <p>
-            <label for="identificacion">
-                NIF/NIE:<input type="text" name="id">
+            <label for="id">
+                NIF/NIE:<input type="text"  id="id" name="identificacion">
             </label> 
         </p>
 
         <p>
-            <label for="Correo">
-                Correo electronico: <input type="text" name="mail">
+            <label for="mail">
+                Correo electronico: <input type="text"  id="mail" name="correo">
             </label>
         </p>
         
         <p>
-            <label for="poblacion">Ciudad:</label>
+            <label>Ciudad:</label>
             <select name="poblacion">
                 <option>Alicante</option>
                 <option>Madrid</option>
@@ -62,19 +62,19 @@
         </p>
         
         <p>
-            <label for="numero">Numero de telefono: </label>
-            <input type="text" iname="telephone">
+            <label for="telephone">Numero de telefono: </label>
+            <input type="text"  id="telephone" name="telefono">
         </p>
         
         <p>
-            <label for="Contraseña">
-                Contraseña: <input type="text" name="password" >
+            <label for="passwd">
+                Contraseña: <input type="text"  id="passwd" name="password" >
             </label>
         </p>
 
         <p>
             <input type="checkbox" name="novedades" checked id="novedades">
-            <label for="novedades">
+            <label>
                 Deseo recibir información sobre novedades y ofertas
             </label>
 
@@ -82,7 +82,7 @@
 
         <p>
             <input type="checkbox" name="condiciones" checked id="condiciones">
-            <label for="politica">
+            <label>
                 Declaro haber leido y aceptar las condiciones y la normativa sobre proteccion de datos
             </label>
         </p>
