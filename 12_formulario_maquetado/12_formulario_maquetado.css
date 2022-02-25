@@ -1,0 +1,36 @@
+body{
+  border: 1px solid black;
+  margin: 3em;
+  padding: 1em;
+}
+h1{
+  text-align: center;
+}
+p{
+  font-size: 1.5em;
+  font-weight: bold;
+  border: 1px solid black;
+  padding-left: 1em;
+}
+form#formulario label{
+  display: inline-block;
+  width: 13em;
+  text-align: right;
+  padding-right: .7em;
+}
+form#formulario input[type="text"]{
+	margin-bottom: 1.15em;
+}
+form#formulario input[type="submit"]{
+	margin-left:10em;
+}
+form#formulario input#no{
+	margin-left: 8em;
+}
+form#formulario input#si{
+	margin-left: 2.8em;
+}
+textarea {
+  margin-bottom: -5.5em;
+  margin-left: 1em;
+}

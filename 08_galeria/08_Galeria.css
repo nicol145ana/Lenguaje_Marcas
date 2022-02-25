@@ -1,0 +1,18 @@
+.thumbnails {
+  float: left;
+  width: 10em;
+  height: 10em;
+}
+.thumbnails{
+  border: black 2px solid;
+}
+.thumbnails{
+  margin: 3px;
+  padding: 3px;
+}
+h1{
+  text-align: center;
+}
+body{
+  background-color:palegoldenrod;
+}

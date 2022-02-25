@@ -1,0 +1,36 @@
+body{
+    border: 1px solid black;
+    margin: 3em;
+    padding: 1em;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 1.3em;
+    border: 1px solid black;
+    padding-left: 1em;
+}
+form#formulario input{
+	margin-bottom: 1.15em;
+}
+form#formulario input#propuesta4{
+    margin-left: 17.4em;
+}
+form#formulario input#propuesta5{
+    margin-left: .5em;
+}
+form#formulario input#propuesta6{
+    margin-left: .4em;
+}
+form#formulario input#propuesta7{
+    margin-left: 17.4em;
+}
+textarea#descripcion{
+  margin-bottom: -5.5em;
+  margin-left: 1em;
+}
+form#formulario input[type="submit"]{
+    margin-top: 1.5em;
+	margin-left: 45em;
+}

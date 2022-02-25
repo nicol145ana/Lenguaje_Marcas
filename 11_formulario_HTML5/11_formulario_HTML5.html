@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario en HTML5</title>
+        <link rel="stylesheet" type="text/css" href="11_formulario_HTML5.css">
+    </head>
+    <body>
+        <h1>Formulario de solicitud de empleo</h1>
+        <form action="http://10.0.56.5/~juanjo/00_primero/recoger_datos.php" method="GET" id="formulario">
+            <div>
+                Nombre: <input type="text" name="name"><br>
+                Apellidos: <input type="text" name="surname"><br>
+                Fecha de  nacimiento: <input type="date" name="fecha1" pattern="^(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})$" ><br>
+                Numero de celular: <input type="tel" name="telefono" pattern="^\d{9}$"><br>
+                Correo Electronico: <input type="email" name="correo" placeholder="ej:ejemplo@ejemplo.com"><br>
+                Calle: <input type="text" name="calle"><br>
+                Ciudad: <input type="text" name="ciudad"><br>
+
+                Como te enteraste de la propuesta?
+                <input type="checkbox" name="propuesta[]" id="propuesta1" value="Linkedin">Linkedin
+                <input type="checkbox" name="propuesta[]" id="propuesta2" value="Instagram">Instagram
+                <input type="checkbox" name="propuesta[]" id="propuesta3" value="Twitter">Twitter<br>
+                <input type="checkbox" name="propuesta[]" id="propuesta4" value="InfoJobs">InfoJobs
+                <input type="checkbox" name="propuesta[]" id="propuesta5" value="Facebook">Facebook
+                <input type="checkbox" name="propuesta[]" id="propuesta6" value="Web">Web<br>
+                <input type="checkbox" name="propuesta[]" id="propuesta7" value="Otro">Otro<br>
+
+                Otro: <input type="text" name="otro"><br>
+                Curriculum Vitae: <input type="file" name="curriculum" accept=".pdf,.jpg,.png" multiple><br>
+
+                <p>Habilidades y competencias</p><br>
+                Describe tus habilidades y competencias <textarea name="descripcion" id="descripcion" rows="4" cols="50"></textarea><br><br><br><br><br>
+                Logros<br> <textarea name="logros" id="logros" rows="4" cols="50"></textarea><br><br>
+                Aspiracion Salarial <input type="text" name="salarial">
+                
+                <p>Referencias</p>
+                Agrega una referencia laboral.<br><br>
+                Nombre: <input type="text" name="referencia"><br>
+                Numero de celular: <input type="tel" name="telefono" pattern="^\d{9}$"><br>
+                Hace cuantos años se conocen: <input type="number" min="1" max="100">
+            </div>
+            <div><input type="submit"></div>
+        </form>
+    </body>
+</html>

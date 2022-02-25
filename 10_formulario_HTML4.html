@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario de Inscripción a un Curso</title>
+</head>
+
+<body>
+
+    <h1>Formulario de Registro</h1>
+    
+    <form action="http://10.0.56.5/~juanjo/00_primero/recoger_datos.php" method="GET">
+
+        <label for="Nombre"> Nombre: <input type="text" id="nombre" name="name"></label><br><br>
+        <label for="1Apellido"> Primer Apellido: <input type="text" id="1apellido" name="1surname"></label><br><br>
+        <label for="2Apellido"> Segundo Apellido: <input type="text" id="2apellido" name="2surname"></label><br><br>
+        Sexo: <input type="radio" name="sexo" value="hombre" id="H">Hombre
+        <input type="radio" name="sexo" value="mujer" id="M">Mujer<br><br>
+        <label>NIF/NIE: <input type="text" id="identificacion" name="id"></label><br><br>
+        <label for="Correo">Correo electronico: <input type="text" id="correo" name="mail" ></label><br><br>
+        <label for="poblacion">Ciudad:</label>
+        <select name="poblacion" id="poblacion">
+            <option>Alicante</option>
+            <option>Madrid</option>
+            <option>Sevilla</option>
+            <option>Valencia</option>
+            <option>Bilbao</option>
+            <option>Ceuta</option>
+            <option>Barcelona</option>
+        </select><br><br>
+        <label> Numero de telefono: </label><input type="text" id="telefono" name="telephone"><br><br>
+        <label for="Contraseña">Contraseña: <input type="text" id="contraseña" name="password" ></label><br><br>
+        <input type="checkbox" name="novedades[]" id="novedades" value="novedad">Deseo recibir información sobre novedades y ofertas<br><br>
+        <input type="checkbox" name="condiciones[]" id="condiciones" value="condicion">Declaro haber leido y aceptar las condiciones y la normativa 
+        sobre proteccion de datos<br><br>
+
+        <div>
+            <input type="submit" value="Registrarme">           
+            <input type="reset" value="Restablecer">
+        </div>
+
+    </form>
+</body>
+</html>
