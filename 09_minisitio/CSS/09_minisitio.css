@@ -1,0 +1,33 @@
+/*.izquierda { float: left; }
+.izquierda { margin: 0 0 10px 10px; }
+.izquierda { border: 1px solid #666; }
+.izquierda { padding: 2px; }
+p{text-align: justify;}*/
+h1{
+	text-align: center;
+  padding: .5em;
+	background-color: bisque;
+}
+/*estilos y demas cosas para maquetar la pagina*/
+div#contenedor{
+		width: 90%;
+		margin: 10px auto;
+	}
+div#contenedor{ 
+	line-height: 130%; 
+}
+div#navegacioniz{
+  float: left;
+  width: 190px;
+}
+div#navegacioniz{
+		margin: 0;
+		padding: 1em;
+	}
+div#contenido{
+  margin-left: 210px;
+  border-left: 1px solid black;
+}
+div#contenido{
+		padding: 1em;
+	}
