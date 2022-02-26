@@ -1,18 +1,24 @@
+body{
+  text-align: center;
+  background-color:palegoldenrod;
+  font-size: x-large
+}
 .thumbnails {
   float: left;
-  width: 10em;
-  height: 10em;
+  width: 14em;
+  height: 13em;
 }
 .thumbnails{
-  border: black 2px solid;
+  border: 3px solid black;
 }
 .thumbnails{
-  margin: 3px;
+  margin: 5px;
   padding: 3px;
 }
-h1{
-  text-align: center;
+img{
+  margin-top: 1em;
 }
-body{
-  background-color:palegoldenrod;
+figcaption {
+  color: black;
+  font-size: 1.5em
 }
