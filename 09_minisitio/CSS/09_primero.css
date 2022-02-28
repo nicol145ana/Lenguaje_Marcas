@@ -35,18 +35,6 @@ div#contenido{
 div#contenido{
 	padding: 1em;
 }
-div#contenido .izquierda { 
-	float: left; 
-}
-div#contenido .izquierda{
-	margin-right: 2.5em;
-	padding-top: 1em;
-}
-div#contenido p{
-	text-align: justify;
-	font-size: 1.3em;
-}
-
 /*estilos para la navegacion izquierda(menu)*/
 div#navegacioniz ul{
 	list-style-type: none;
@@ -83,26 +71,64 @@ div#pie{
 	text-align: center;
 	color: white;
 }
-/*Estilos para las tres imagenes del contenido y el segundo h2*/
-div#contenido .contents h2{
-	margin-top: 7em;
-	padding-top: .5em; 
-	padding-bottom: .5em;
-}
-div#contenido .contents h2{
-	background-color: white;
+/*Estilos para ell contenido de primer plato*/
+div#contenido h2{
 	text-align: center;
-	color: black;
+	font-size: 2em;
 }
-div#contenido .aperitivos{
-	margin-left: 3em;
-	margin-right: 3em;
+div#contenido h3{
+	text-align: center;
+	font-size: 2em;
 }
-div#contenido .primero{
-	margin-left: 3em;
-	margin-right: 3em;
+div#contenido p{
+	font-size: 1.2em;
 }
-div#contenido .segundo{
-	margin-left: 3em;
-	margin-right: 3em;
+div#contenido li{
+	font-size: 1.2em;
+}
+div#contenido .anuncio {
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	padding-top: 1em;
+}
+div#contenido .anuncio img{
+	float: left;
+	margin-right: 2.5em;
+	margin-left: 2.5em;
+}
+div#contenido .anuncio{
+    padding-bottom: 5em;
+}
+div#contenido .anuncio a{
+    display: block;
+    margin-top: 1em;
+}
+div#contenido .anuncio a{
+	color: blue;
+	font-size: 1.5em;
+}
+div#contenido .uno img{
+    float: left;
+    margin-right: 2em;
+}
+div#contenido .uno ul li{
+    margin-left: 29em;
+}
+div#contenido .dos img{
+	float: right;
+	margin-left: 2.5em;
+}
+div#contenido .dos {
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+div#contenido .dos {
+	text-align: justify;
+}
+div#contenido .tres img{
+	float: left;
+	margin-right: 2em;
+}
+div#contenido .tres ul li{
+	margin-left: 29em;
 }
