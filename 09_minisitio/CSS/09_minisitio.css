@@ -35,17 +35,7 @@ div#contenido{
 div#contenido{
 	padding: 1em;
 }
-div#contenido .izquierda { 
-	float: left; 
-}
-div#contenido .izquierda{
-	margin-right: 2.5em;
-	padding-top: 1em;
-}
-div#contenido p{
-	text-align: justify;
-	font-size: 1.3em;
-}
+
 
 /*estilos para la navegacion izquierda(menu)*/
 div#navegacioniz ul{
@@ -83,7 +73,18 @@ div#pie{
 	text-align: center;
 	color: white;
 }
-/*Estilos para las tres imagenes del contenido y el segundo h2*/
+/*Estilos para el cotenido del minisitio*/
+div#contenido .content img{ 
+	float: left; 
+}
+div#contenido .content img{
+	margin-right: 2.5em;
+	padding-top: 1em;
+}
+div#contenido p{
+	text-align: justify;
+	font-size: 1.3em;
+}
 div#contenido .contents h2{
 	margin-top: 7em;
 	padding-top: .5em; 
@@ -94,15 +95,7 @@ div#contenido .contents h2{
 	text-align: center;
 	color: black;
 }
-div#contenido .aperitivos{
-	margin-left: 3em;
-	margin-right: 3em;
-}
-div#contenido .primero{
-	margin-left: 3em;
-	margin-right: 3em;
-}
-div#contenido .segundo{
+div#contenido .contents img{
 	margin-left: 3em;
 	margin-right: 3em;
 }

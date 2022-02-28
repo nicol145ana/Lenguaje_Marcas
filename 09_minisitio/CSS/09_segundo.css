@@ -71,64 +71,49 @@ div#pie{
 	text-align: center;
 	color: white;
 }
-/*Estilos para el contenido del primer plato*/
-div#contenido h2{
-	text-align: center;
-	font-size: 2em;
-}
-div#contenido h3{
-	text-align: center;
-	font-size: 2em;
-}
-div#contenido p{
-	font-size: 1.2em;
-}
-div#contenido li{
-	font-size: 1.2em;
-}
-div#contenido .anuncio {
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
-	padding-top: 1em;
-}
-div#contenido .anuncio img{
-	float: left;
-	margin-right: 2.5em;
-	margin-left: 2.5em;
-}
-div#contenido .anuncio{
-    padding-bottom: 5em;
-}
-div#contenido .anuncio a{
-    display: block;
-    margin-top: 1em;
-}
-div#contenido .anuncio a{
-	color: blue;
+/*Estilos para el contenido del sugundo plato*/
+div#contenido {
 	font-size: 1.5em;
+    text-align: justify;
 }
-div#contenido .uno img{
+div#contenido .cero{
+    border-bottom: 1px solid white;
+}
+div#contenido .uno .foto1{
     float: left;
-    margin-right: 2em;
+	padding-right: 2em;
+	width: 29em;
 }
-div#contenido .uno ul li{
-    margin-left: 29em;
+div#contenido .uno .foto2{
+    margin-bottom: 2em;
+	width: 13em;
 }
-div#contenido .dos img{
-	float: right;
-	margin-left: 2.5em;
+div#contenido .uno .foto3{
+		width: 13em;
 }
-div#contenido .dos {
-	border-top: 1px solid white;
+div#contenido .uno {
 	border-bottom: 1px solid white;
 }
-div#contenido .dos {
-	text-align: justify;
+div#contenido .dos .foto1{
+    float: right;
+    padding-left: 2em;
+    width: 28em;
 }
-div#contenido .tres img{
-	float: left;
-	margin-right: 2em;
+div#contenido .dos .foto2{
+    margin-bottom: .7em;
+	width: 15em;
 }
-div#contenido .tres ul li{
-	margin-left: 29em;
+div#contenido .dos .foto3{
+	width: 15em;
+}
+div#contenido .dos{
+    border-bottom: 1px solid white;
+}
+div#contenido .tres .foto1{
+    float: left;
+    padding-right: 2em;
+    width: 27.5em;
+}
+div#contenido .tres .foto2{
+    width: 15.5em;
 }
