@@ -1,0 +1,67 @@
+/*Fuentes de tipo woff y woff2*/
+@font-face {
+    font-family: 'awake_the_beautyregular';
+    src: url('../13a_fuentes/fichero_fuentes/awake_the_beauty/awake_the_beauty-webfont.woff2') format('woff2'),
+         url('../13a_fuentes/fichero_fuentes/awake_the_beauty/awake_the_beauty-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'black_way_-_personal_useRg';
+    src: url('../13a_fuentes/fichero_fuentes/black_way/black_way_-_personal_use-webfont.woff2') format('woff2'),
+         url('../13a_fuentes/fichero_fuentes/black_way/black_way_-_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sleeptight_displayregular';
+    src: url('../13a_fuentes/fichero_fuentes/sleeptight_display/sleeptightdisplay-webfont.woff2') format('woff2'),
+         url('../13a_fuentes/fichero_fuentes/sleeptight_display/sleeptightdisplay-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sleeptightregular';
+    src: url('../13a_fuentes/fichero_fuentes/sleeptight_display/sleeptight-webfont.woff2') format('woff2'),
+         url('../13a_fuentes/fichero_fuentes/sleeptight_display/sleeptight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*estilos para el documento HTML*/
+body{
+    margin: 4em;
+    text-align: justify;
+    font-size: 2em;
+}
+h1{
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: 'awake_the_beautyregular', sans-serif;
+    font-size: 2em;
+}
+p.cero{
+    font-family: 'black_way_-_personal_useRg', sans-serif;
+}
+p.uno{
+    font-family: 'Smooch Sans', sans-serif;
+}
+p.dos{
+    font-family: 'Josefin Sans', sans-serif;
+}
+p.tres{
+    font-family: 'Syne Mono', monospace;
+}
+p.cuatro{
+    font-family: 'sleeptight_displayregular', sans-serif;
+}
+p.cinco{
+    font-family: 'sleeptightregular', sans-serif;
+}
+p.seis{
+    font-family: 'Caveat', cursive;
+}
