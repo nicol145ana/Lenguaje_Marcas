@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="16_instrucciones.css">
+<link rel="stylesheet" href="../16_Instrucciones/css/prism.css">
+<title>Instrucciones</title>
+</head>
+<body>
+    <h1>Intrucciones para generar y dar estilo a una tabla en HTML</h1>
+    <p>
+        Para generar una tabla en HTML se ultiliza la etiqueta &lt;table&gt; dentro de esta definiremos una fila de celdas 
+        con &lt;tr&gt; y dentro de ese podemos mezclas dos elementos por un lado &lt;td&gt; para definir las celdas que contienen datos 
+        y &lt;th&gt; para definir el encabezado de un grupo de celdas.
+    </p>
+    <pre class="language-html">
+        <code class="language-html">
+            &lt;table class="cursos" &gt;
+                &lt;tr&gt;
+                    &lt;th&gt;Curso&lt;&sol;th&gt;
+                    &lt;th&gt;Horas&lt;&sol;th&gt;
+                    &lt;th&gt;Horario&lt;&sol;th&gt;
+                &lt;&sol;tr&gt;
+                
+                &lt;tr&gt;
+                    &lt;td&gt;CSS&lt;&sol;td&gt;
+                    &lt;td&gt;20&lt;&sol;td&gt;
+                    &lt;td&gt;16:00 - 20:00&lt;&sol;td&gt;
+                &lt;&sol;tr&gt;
+                
+                &lt;tr&gt;
+                    &lt;td&gt;HTML&lt;&sol;td&gt;
+                    &lt;td&gt;20&lt;&sol;td&gt;
+                    &lt;td&gt;16:00 - 20:00&lt;&sol;td&gt;
+                &lt;&sol;tr&gt;
+                
+                &lt;tr&gt;
+                    &lt;td&gt;Java&lt;&sol;td&gt;
+                    &lt;td&gt;60&lt;&sol;td&gt;
+                    &lt;td&gt;16:00 - 20:00&lt;&sol;td&gt;
+                &lt;&sol;tr&gt;
+            &lt;&sol;table&gt; 
+        </code>
+    </pre>
+
+    <p>Para poder darle estilo a la tabla usaremos lo siguiente</p>
+    <pre class="language-css">
+        <code class="language-css">
+            .cursos{
+                border: 1px solid black;
+                text-align: center;
+            }
+            .cursos td{
+                border: 1px solid black;
+                padding: 1em;
+            }
+        </code>
+    </pre>
+    <script src="../16_Instrucciones/js/prism.js"></script>
+</body>
+</html>
