@@ -1,0 +1,38 @@
+.sprite {
+    width: 150px;
+    height: 150px;
+    background: url(spritesheet.png);
+    display: inline-block;
+}
+
+.sprite-run-1 {
+    background-position: -5px -5px;
+}
+
+.sprite-run-2 {
+    background-position: -86px -5px;
+}
+
+.sprite-run-3 {
+    background-position: -167px -5px;
+}
+
+.sprite-run-4 {
+    background-position: -248px -5px;
+}
+
+.sprite-run-5 {
+    background-position: -329px -5px;
+}
+
+.sprite-run-6 {
+    background-position: -410px -5px;
+}
+
+.sprite-run-7 {
+    background-position: -491px -5px;
+}
+
+.sprite-run-8 {
+    background-position: -572px -5px;
+}

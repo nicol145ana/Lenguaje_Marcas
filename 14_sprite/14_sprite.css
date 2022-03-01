@@ -1,0 +1,38 @@
+body{
+    margin: 4em;
+}
+h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+div#imagenes p img {
+    float: left;
+    width: 8.5em;
+}
+div#imagenes p img{
+    padding: 1em;
+    margin-bottom: 2em;
+}
+div#sprite {
+    font-size: 1.5em;
+}
+div#sprite img{
+    width: 45em;
+}
+div#gif-container p{
+    font-size: 1.5em;
+}
+/*estilos para hacer el gif*/
+#sprite-image {
+    height: 5em;
+    width: 5em;
+    background: url("../14_sprite/run_animation/spritesheet.png");
+    animation: play 0.8s steps(8) infinite;
+    margin: auto;
+}
+/*Para controlar los pasos uso la siguiente regla*/
+@keyframes play {
+    100% {
+        background-position: -640px;
+    }
+}
